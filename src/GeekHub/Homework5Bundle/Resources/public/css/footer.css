@@ -36,3 +36,9 @@
 code {
   font-size: 80%;
 }
+.phone
+{
+    color: #5bc0de;
+    font-size:2em;
+    font-style: italic;
+}

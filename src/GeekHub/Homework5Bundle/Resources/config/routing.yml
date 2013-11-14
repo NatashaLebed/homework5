@@ -1,3 +1,15 @@
 _homework5_homepage:
     pattern:  /
     defaults: { _controller: GeekHubHomework5Bundle:Default:index }
+
+_homework5_task:
+    pattern:  /task
+    defaults: { _controller: GeekHubHomework5Bundle:Default:task }
+
+_homework5_contact:
+    pattern:  /contact
+    defaults: { _controller: GeekHubHomework5Bundle:Default:contact }
+
+_homework5_renderTask:
+    pattern:  /renderTask
+    defaults: { _controller: GeekHubHomework5Bundle:Default:renderTask }
