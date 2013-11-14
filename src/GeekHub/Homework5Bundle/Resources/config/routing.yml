@@ -1,0 +1,3 @@
+_homework5_homepage:
+    pattern:  /
+    defaults: { _controller: GeekHubHomework5Bundle:Default:index }
