@@ -1,0 +1,7 @@
+parameters:
+#    geek_hub_homework5_w.example.class: GeekHub\Homework5Bundle\Example
+
+services:
+#    geek_hub_homework5_.example:
+#        class: %geek_hub_homework5_.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
