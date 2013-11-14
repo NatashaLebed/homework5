@@ -14,5 +14,7 @@ _main:
     resource: routing.yml
 
 # AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+
+_geekhub_homework5:
+    resource: "@GeekHubHomework5Bundle/Resources/config/routing.yml"
+    prefix:   /

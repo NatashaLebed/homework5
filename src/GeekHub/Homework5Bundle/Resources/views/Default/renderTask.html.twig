@@ -1,0 +1,16 @@
+{% extends "GeekHubHomework5Bundle::layout.html.twig" %}
+
+{% block title "Welcome " %}
+
+    {% block content %}
+
+        <div id="wrap">
+            <div class="container">
+                <h1>This list of tasks was rendered by taskAction from other template</h1>
+                
+                {{ render(controller('GeekHubHomework5Bundle:Default:task')) }}
+            </div>
+        </div>
+    {% endblock %}
+    {% block footer %}
+    {% endblock %}

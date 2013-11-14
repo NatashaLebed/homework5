@@ -1,0 +1,4 @@
+_geekhub_homework5:
+    resource: "@GeekHubHomework5Bundle/Resources/config/routing.yml"
+    prefix:   /
+
