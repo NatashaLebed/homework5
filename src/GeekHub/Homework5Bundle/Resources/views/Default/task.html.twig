@@ -1,0 +1,22 @@
+{% extends "GeekHubHomework5Bundle::layout.html.twig" %}
+
+{% block title "Task " %}
+{% block content %}
+
+    <div id="wrap">
+        <div class="container">
+
+            <div class="page-header">
+                <h1>Homework5</h1>
+            </div>
+
+            <ul class="list-group">
+                {% for task in tasks %}
+                    <li class="list-group-item"> {{ loop.index }} - {{ task|upper }} </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+
+{% endblock %}
